@@ -1,0 +1,164 @@
+/*HTML*/
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+/*Body*/
+body {
+    overflow-x: hidden;
+}
+/*H1*/
+h1 {
+    color: white;
+}
+/*Tables*/
+dl {
+    display: table;
+    border-collapse: collapse;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+dl div {
+    display: table-row;
+}
+dt, dd {
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+    column-rule-style: dotted;
+}
+p{
+    column-rule-style: dotted;
+    widows: 3;
+    height: 99px;
+    overflow: hidden;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+/*nav*/
+nav {
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    height: 2em;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*DIV*/
+div {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}   
+/*ul*/
+ul, li {
+    display: inline;
+    list-style-type: none;
+    color: white;
+}
+/*Button*/
+div button {
+    z-index: 5;
+    position: absolute;
+    border-radius: 35%;
+    width: 10rem;
+    height: 4rem;
+}
+button { 
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+}
+.button2 {
+    top: 2200px;
+    color: white;
+    background-attachment: transparent;
+}
+.button3{
+    top: -900px;
+    left: 800px;
+    background-color: black;
+    color: white;
+}
+button:hover {
+    background-color:white;
+    color: black;
+    transition: .5s;
+}
+.button2:hover {
+    background-color:white;
+    color: black;
+    transition: .5s;
+}
+/*Classes*/
+.tesla{
+    margin: 0%;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.white-arrow {
+    position: relative;
+    left: 725px;
+    top: 625px;
+}
+.Accessories {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+.statistics {
+    width: 1600px;
+    height: 50%
+}
+.h1 {
+    transform:  translate(630px, -500px); 
+    color: white;
+}
+.table1_stat {
+    transform: translate(450px, -900px);
+}
+.table2_stat {
+    transform: translate(550px, -1000px);
+}
+.table3_stat {
+    transform: translate(725px, -1045px);
+}
+.table4_stat {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+.exoskeleton {
+    width: 1000px;
+    height: 600px;
+}
+/*ID's*/
+#tesla-logo {
+    position: absolute;
+    left: 400px;
+    z-index: 5;
+}
+#arrow1 {
+    position: relative;
+    top: 200px; 
+    left: 100px;
+}
+#statistics_table {
+    display: inline;
+    color: white;
+}

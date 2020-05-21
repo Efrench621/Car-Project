@@ -1,0 +1,232 @@
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 60% 1fr 1fr 60%;
+        grid-template-rows: 1fr 100vh 100vh 100vh;
+    }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('../images/home_page.png');
+        background-size: cover;
+        width: 400px;
+        height: 900px;
+
+    }
+    .item1 div {
+        position: relative;
+        height: 100%;
+    }
+    .item1 #arrow1 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
+    }
+    .item2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('../images/supercharger.png');
+        background-size: cover;
+    }
+    .item2 div img {
+        height: 100%;
+    }
+    .item2 #arrow2 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
+    }
+    .item2 button {
+        left: 39%;
+        top: 1900px;
+        background-color: white;
+        color: black;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/statistics_home_page.png');
+        background-size: cover;
+    }
+    .item3 div img {
+        height: 100%;
+    }
+    .item3 button {
+        top: 1200px;
+        left: 40%;
+    }
+    div.tesla {
+        top: 100px;
+        height: 100px;
+    }
+    #tesla-logo {
+        position: absolute;
+        left: 100px;
+        z-index: 5;
+    }
+    table {
+        position: relative;
+        left: 200px;
+    }
+}
+/*Tablet*/
+@media only screen and (min-width: 601px) and (max-width: 1199px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 60% 1fr 1fr 1fr;
+        grid-template-rows: 1fr 100vh 100vh 100vh;
+    }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('../images/home_page.png');
+        background-position: -400px;
+    }
+    .item1 div {
+        position: relative;
+        height: 100%;
+    }
+    .item1 #arrow1 {
+        position: relative;
+        top: 600px; 
+        left: 400px;
+    }
+    .item2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('../images/supercharger.png');
+        background-position: 100px;
+    }
+    .item2 div img {
+        height: 100%;
+    }
+    .item2 #arrow2 {
+        position: relative;
+        top: 600px; 
+        left: 400px;
+    }
+    .item2 button {
+        left: 39%;
+        top: 1900px;
+        background-color: white;
+        color: black;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/statistics_home_page.png');
+        background-position: -400px;
+    }
+    .item3 div img {
+        height: 100%;
+    }
+    .item3 button {
+        top: 1200px;
+        left: 40%;
+    }
+    div.tesla {
+        height: 100%;
+    }
+    #tesla-logo {
+        position: absolute;
+        left: 200px;
+        z-index: 5;
+    }
+    table {
+        position: relative;
+        left: 200px;
+    }
+}
+/*Desktop*/
+@media only screen and (min-width: 1200px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 60% 1fr 1fr 1fr;
+        grid-template-rows: 1fr 100vh 100vh 100vh;
+    }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('../images/home_page.png');
+    }
+    .item1 div {
+        height: 100%;
+    }
+    .item1 #arrow1 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
+    }
+    .item2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('../images/supercharger.png');
+    }
+    .item2 div img {
+        height: 200px;
+        width: 160px;
+    }
+    .item2 #arrow2 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
+    }
+    .item2 button {
+        left: 39%;
+        top: 500px;
+        background-color: white;
+        color: black;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/statistics_home_page.png');
+    }
+    .item3 div img {
+        height: 100%;
+    }
+    .item3 button {
+        left: 39%;
+        top: 545px;
+    }
+    div.tesla {
+        height: 100%;
+    }
+}
